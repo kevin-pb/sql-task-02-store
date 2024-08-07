@@ -1,3 +1,6 @@
+/*
+pre exercise
+*/
 use store ;
 
 create table employee (

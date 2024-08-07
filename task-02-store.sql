@@ -56,12 +56,12 @@ ALTER TABLE purchase_item ADD CONSTRAINT FOREIGN KEY (`purchase_id`) REFERENCES 
 
 create table product (
 product_id int primary key, 
-product_name int, 
+product_name varchar(45), 
 category_id int,
-quantity_per_unit decimal(10.2),
-unit_price timestamp not null,
-units_in_stock timestamp not null,
-discontinued varchar(60) not null
+quantity_per_unit int,
+unit_price decimal(10.2) not null,
+units_in_stock int not null,
+discontinued boolean not null
 );
 
 ALTER TABLE purchase_item ADD CONSTRAINT FOREIGN KEY (`product_id`) REFERENCES product (`product_id`);
@@ -76,3 +76,18 @@ parent_category_id int not null
 ALTER TABLE category ADD CONSTRAINT FOREIGN KEY (`parent_category_id`) REFERENCES category (`category_id`);
 
 ALTER TABLE product ADD CONSTRAINT FOREIGN KEY (`category_id`) REFERENCES category (`category_id`);
+
+/*
+exercise 1
+*/
+
+select * from product
+
+/*
+exercise 2
+*/
+SELECT product_name FROM product WHERE unit_price <= 3.5;
+
+/*
+exercise 2
+*/

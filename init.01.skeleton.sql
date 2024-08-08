@@ -1,3 +1,5 @@
+create database store;
+
 use store ;
 
 create table employee (
@@ -67,7 +69,7 @@ create table category (
     category_id  int primary key, 
     name varchar(60), 
     description text not null,
-    parent_category_id int not null
+    parent_category_id int
 );
 
 ALTER TABLE category ADD CONSTRAINT FOREIGN KEY (`parent_category_id`) REFERENCES category (`category_id`);

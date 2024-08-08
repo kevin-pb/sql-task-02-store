@@ -9,7 +9,7 @@ hire_date date not null,
 address varchar(128) not null,
 city varchar(30) not null,
 counttry varchar(30) not null,
-reorts_to int not null
+reorts_to int 
 );
 
 ALTER TABLE employee ADD CONSTRAINT FOREIGN KEY (`reorts_to`) REFERENCES employee (`employee_id`);

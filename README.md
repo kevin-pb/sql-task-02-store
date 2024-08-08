@@ -32,22 +32,23 @@ Now you need to download MySQL Workbench once you download MySQL Workbench you c
 - 3-task-02-store
 
 With all that clarified I set out to solve the following problems:
-Exercise1: Display all data present in the product table.
 
-Exercise2: Display the names of products with a unit price greater than or equal to 3.5.
+- Exercise1: Display all data present in the product table.
 
-Exercise3: Display the data for all products in categories with an ID of 1 (Food) or 5 (Fruits and Vegetables) and with a unit price greater than 3.5.
+- Exercise2: Display the names of products with a unit price greater than or equal to 3.5.
 
-Exercise4: Select product names along with their categories. Display two columns: product_name and category_name.
+- Exercise3: Display the data for all products in categories with an ID of 1 (Food) or 5 (Fruits and Vegetables) and with a unit price greater than 3.5.
 
-Exercise5: For each purchase, display the purchase ID, product name, unit price at the time of purchase, and quantity of Exercise6: For each purchase, display all product categories purchased in this purchase. Display each category only once for each purchase.
+- Exercise4: Select product names along with their categories. Display two columns: product_name and category_name.
 
-Exercise7: Display the data for all categories. Sort the categories by name in ascending order (A to Z).
+- Exercise5: For each purchase, display the purchase ID, product name, unit price at the time of purchase, and quantity of Exercise6: For each purchase, display all product categories purchased in this purchase. Display each category only once for each purchase.
 
-Exercise8: Display the last names, first names, and dates of birth of employees. Sort the results by the employee's age in ascending order (Hint: Use the birth_date column).
+- Exercise7: Display the data for all categories. Sort the categories by name in ascending order (A to Z).
 
-Exercise9: Display the data for all products, sorting the results by the number of units in descending order and by the product name in ascending order.
+- Exercise8: Display the last names, first names, and dates of birth of employees. Sort the results by the employee's age in ascending order (Hint: Use the birth_date column).
 
-Exercise10: For each product category, display its name and find the average unit price. Display two columns: name and average_unit_price.
+- Exercise9: Display the data for all products, sorting the results by the number of units in descending order and by the product name in ascending order.
+
+- Exercise10: For each product category, display its name and find the average unit price. Display two columns: name and average_unit_price.
 
 The solution to these problems is found in:[task-02-store](https://github.com/kevin-pb/sql-task-02-store/blob/master/task-02-store.sql) 

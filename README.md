@@ -41,7 +41,9 @@ With all that clarified I set out to solve the following problems:
 
 - Exercise4: Select product names along with their categories. Display two columns: product_name and category_name.
 
-- Exercise5: For each purchase, display the purchase ID, product name, unit price at the time of purchase, and quantity of Exercise6: For each purchase, display all product categories purchased in this purchase. Display each category only once for each purchase.
+- Exercise5: For each purchase, display the purchase ID, product name, unit price at the time of purchase, and quantity of 
+
+- Exercise6: For each purchase, display all product categories purchased in this purchase. Display each category only once for each purchase.
 
 - Exercise7: Display the data for all categories. Sort the categories by name in ascending order (A to Z).
 

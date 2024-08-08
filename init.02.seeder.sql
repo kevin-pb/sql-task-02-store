@@ -39,15 +39,15 @@ VALUES
 
 INSERT INTO product (product_id, product_name, category_id, quantity_per_unit, unit_price, units_in_stock, discontinued) 
 VALUES
-(1, 'Laptop Pro 15"', 2, 1, 1200.99, 50, FALSE),
-(2, 'Smartphone XL', 2, 1, 899.50, 100, FALSE),
+(1, 'Laptop Pro 15"', 2, 3, 1200.99, 50, FALSE),
+(2, 'Smartphone XL', 2, 8, 899.50, 100, FALSE),
 (3, 'Business Management Software', 3, 1, 299.99, 200, FALSE),
-(4, 'SSD Hard Drive 1TB', 4, 1, 150.00, 75, FALSE),
+(4, 'SSD Hard Drive 1TB', 4, 5, 150.00, 75, FALSE),
 (5, '300W Solar Panel', 6, 1, 400.00, 30, FALSE),
 (6, 'Energy Inverter', 6, 1, 500.00, 20, FALSE),
-(7, 'Portland Cement', 7, 1, 10.00, 500, FALSE),
+(7, 'Portland Cement', 7, 3, 10.00, 500, FALSE),
 (8, 'Leather Armchair', 8, 1, 250.00, 15, FALSE),
-(9, 'Italian Pasta', 9, 1, 5.99, 100, FALSE),
+(9, 'Italian Pasta', 9, 1, 2.99, 100, FALSE),
 (10, 'Red Wine Reserve', 10, 1, 20.00, 60, FALSE);
 
 INSERT INTO purchase (purchase_id, customer_id, employee_id, total_price, purchase_data, shipped_data, ship_addres, ship_city, ship_counttry) 

@@ -54,3 +54,8 @@ With all that clarified I set out to solve the following problems:
 - Exercise10: For each product category, display its name and find the average unit price. Display two columns: name and average_unit_price.
 
 The solution to these problems is found in:[task-02-store](https://github.com/kevin-pb/sql-task-02-store/blob/master/task-02-store.sql) 
+
+
+### A little more:
+
+![model.er](./rsc/Use%20IN.jpeg)

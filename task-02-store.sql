@@ -21,7 +21,7 @@ where (category_id = 1 or category_id = 3) and unit_price >= 3.5;
 /**
  * Exercise #4
  */
-select p.product_name, c.name 
+select p.product_name, c.name as category_name
 from product as p 
 inner join category as c on p.category_id =  c.category_id;
 
@@ -41,7 +41,7 @@ from category as c
 inner join product as p on c.category_id = p.product_id
 inner join purchase_item as pu_i on pu_i.purchase_id = p.product_id
 inner join purchase as pu on pu.purchase_id = pu_i.purchase_id
-group by c.name, pu.purchase_id;;
+group by c.name, pu.purchase_id;
 
 /**
  * Exercise #7
@@ -67,7 +67,7 @@ order by quantity_per_unit desc, product_name asc;
 /**
  * Exercise #10
  */
-select c.name, avg(unit_price) as average_unit_price
+select c.name, avg(p.unit_price) as average_unit_price
 FROM category as c
 inner join product as p on c.category_id = p.category_id
 group by c.name;

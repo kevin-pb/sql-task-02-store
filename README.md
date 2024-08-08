@@ -58,4 +58,4 @@ The solution to these problems is found in:[task-02-store](https://github.com/ke
 
 ### A little more:
 
-![model.er](./rsc/Use%20IN.jpeg)
+![model.er](./rsc/UseIN.jpeg)

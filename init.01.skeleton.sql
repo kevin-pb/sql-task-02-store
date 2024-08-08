@@ -20,7 +20,7 @@ create table purchase (
     purchase_id int primary key, 
     customer_id int, 
     employee_id int,
-    total_price decimal(10.2),
+    total_price double,
     purchase_data timestamp not null,
     shipped_data timestamp not null,
     ship_addres varchar(60) not null,
@@ -45,7 +45,7 @@ ALTER TABLE purchase ADD CONSTRAINT FOREIGN KEY (`customer_id`) REFERENCES custo
 create table purchase_item (
     purchase_id int, 
     product_id int, 
-    unit_price decimal(10.2) not null,
+    unit_price double not null,
     quantity int,
     primary key (purchase_id, product_id)
 );
@@ -58,7 +58,7 @@ create table product (
     product_name varchar(45), 
     category_id int,
     quantity_per_unit int,
-    unit_price decimal(10.2) not null,
+    unit_price double not null,
     units_in_stock int not null,
     discontinued boolean not null
 );

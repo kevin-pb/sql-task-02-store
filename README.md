@@ -7,7 +7,8 @@ This image is a graphical representation of what I want to achieve with this dat
 ## Entity-Relationship (ER) model 
 ![model.er](./rsc/model.er.drawio.svg)
 
-Install
+### Install
+
 To install do you need to execute this code in the cmd
 
 git clone https://github.com/kevin-pb/sql-task-02-store.git
@@ -26,9 +27,9 @@ docker-compose up -d
 
 Now you need to download MySQL Workbench once you download MySQL Workbench you can charge and run the follow files, they are located in the main file (sql-tasck-01-school):
 
-1-init.01.skeleton
-2-init.02.seeder
-3-task-02-store
+- 1-init.01.skeleton
+- 2-init.02.seeder
+- 3-task-02-store
 
 With all that clarified I set out to solve the following problems:
 Exercise1: Display all data present in the product table.

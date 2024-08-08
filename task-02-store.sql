@@ -89,5 +89,36 @@ exercise 2
 SELECT product_name FROM product WHERE unit_price <= 3.5;
 
 /*
-exercise 2
+exercise 3
 */
+
+SELECT * FROM store.product where product_id = 1 or product_id = 5;
+
+/*
+exercise 4
+*/
+
+select p.product_name, c.category_name from product as p
+inner join category as c
+on p.product_id =  c.category_id;
+
+/*
+exercise 7
+*/
+
+select * from category as e
+order by category_name asc;
+
+/*
+exercise 8
+*/
+
+select * from employee as e
+order by birth_date asc;
+
+/*
+exercise 8
+*/
+
+select * from product as p
+order by quantity_per_unit desc, product_name asc;

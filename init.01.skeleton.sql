@@ -6,7 +6,7 @@ create table employee (
     employee_id int primary key,
     last_name varchar(40),
     first_name varchar(20),
-    birth_date date not null,
+    birth_date date,
     hire_date date,
     address varchar(128) not null,
     city varchar(30) not null,
@@ -60,7 +60,7 @@ create table product (
     quantity_per_unit int,
     unit_price double not null,
     units_in_stock int not null,
-    discontinued boolean not null
+    discontinued boolean
 );
 
 ALTER TABLE purchase_item ADD CONSTRAINT FOREIGN KEY (`product_id`) REFERENCES product (`product_id`);

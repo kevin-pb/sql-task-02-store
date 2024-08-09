@@ -99,3 +99,15 @@ inner join product as p on c.category_id = p.category_id
 group by c.name
 having sum(p.discontinued) >= 3
 order by discontinued_products_number desc; 
+
+/**
+ * Exercise #14
+ */
+select count(last_name) as employees_without_information
+from employee
+where hire_date is null and birth_date is null;
+
+/**
+ * Exercise #14
+ */
+ 

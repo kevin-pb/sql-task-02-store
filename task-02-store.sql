@@ -73,9 +73,13 @@ inner join product as p on c.category_id = p.category_id
 group by c.name;
 
 /**
- * Exercise #11(COMMING SOON)
+ * Exercise #11
  */
 select c.city, count(customer_id) as total
 from store.customer AS c
-where c.city != "Knoxville"
+where c.city != "Knoxville" or "Stockton"
 group by c.city;
+
+/**
+ * Exercise #11
+ */

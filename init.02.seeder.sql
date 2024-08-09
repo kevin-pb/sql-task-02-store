@@ -1,15 +1,15 @@
 INSERT INTO employee (employee_id, last_name, first_name, birth_date, hire_date, address, city, counttry, reorts_to) 
 VALUES
 (1, 'Smith', 'John', '1980-03-15', '2010-06-01', '123 Elm Street, Apt 4B', 'New York', 'USA', NULL),
-(2, 'Doe', 'Jane', '1985-07-22', '2012-09-15', '456 Maple Avenue', 'Los Angeles', 'USA', 1),
-(3, 'Brown', 'Michael', '1975-11-30', '2008-03-10', '789 Oak Lane', 'Chicago', 'USA', 1),
+(2, 'Doe', 'Jane', '1985-07-22', null, '456 Maple Avenue', 'Los Angeles', 'USA', 1),
+(3, 'Brown', 'Michael', '1975-11-30', null, '789 Oak Lane', 'Chicago', 'USA', 1),
 (4, 'Johnson', 'Emily', '1990-05-05', '2015-08-23', '101 Pine Street, Suite 200', 'Houston', 'USA', 2),
 (5, 'Taylor', 'Chris', '1982-10-17', '2011-04-30', '202 Birch Road', 'Philadelphia', 'USA', 3),
-(6, 'Anderson', 'Jessica', '1993-12-25', '2017-11-01', '303 Cedar Court', 'Phoenix', 'USA', 4),
+(6, 'Anderson', 'Jessica', '1993-12-25', null, '303 Cedar Court', 'Phoenix', 'USA', 4),
 (7, 'Thomas', 'David', '1978-08-09', '2009-02-14', '404 Spruce Drive', 'San Antonio', 'USA', 5),
 (8, 'Moore', 'Laura', '1987-09-19', '2013-12-20', '505 Walnut Way', 'San Diego', 'USA', 3),
 (9, 'Jackson', 'Robert', '1983-04-12', '2010-05-15', '606 Cherry Circle', 'Dallas', 'USA', 1),
-(10, 'White', 'Sophia', '1991-01-02', '2016-07-07', '707 Ash Avenue', 'San Jose', 'USA', 2);
+(10, 'White', 'Sophia', '1991-01-02', null, '707 Ash Avenue', 'San Jose', 'USA', 2);
 
 INSERT INTO category (category_id, name, description, parent_category_id) 
 VALUES

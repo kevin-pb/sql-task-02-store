@@ -7,7 +7,7 @@ create table employee (
     last_name varchar(40),
     first_name varchar(20),
     birth_date date not null,
-    hire_date date not null,
+    hire_date date,
     address varchar(128) not null,
     city varchar(30) not null,
     counttry varchar(30) not null,

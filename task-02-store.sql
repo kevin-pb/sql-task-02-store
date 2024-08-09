@@ -81,5 +81,21 @@ where c.city != "Knoxville" or "Stockton"
 group by c.city;
 
 /**
- * Exercise #11
+ * Exercise #12
  */
+use store;
+select last_name, first_name
+from employee
+where hire_date is null;
+
+/**
+ * Exercise #13
+ */
+use store;
+
+select c.name, sum(p.discontinued) as discontinued_products_number 
+from category as c
+inner join product as p on c.category_id = p.category_id
+group by c.name
+having sum(p.discontinued) >= 3
+order by discontinued_products_number desc; 

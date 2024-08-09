@@ -56,9 +56,9 @@ VALUES
 (2, 2, 5, 899.50, '2024-08-03 12:30:00', '2024-08-04 14:00:00', '567 Royal Street, Panorama Building, Level 3', 'Los Angeles', 'USA'),
 (3, 3, 2, 500.00, '2024-08-05 09:15:00', '2024-08-06 11:00:00', '890 Central Plaza, Suite 304', 'Chicago', 'USA'),
 (4, 4, 7, 100.00, '2024-08-06 15:45:00', '2024-08-08 08:30:00', '45 Boulevard of the Heroes, Alpha Tower', 'Houston', 'USA'),
-(5, 5, 1, 1200.00, '2024-08-07 08:00:00', '2024-08-09 09:00:00', '234 9th of July Street, Floor 7', 'Philadelphia', 'USA'),
-(6, 6, 6, 750.00, '2024-08-08 14:00:00', '2024-08-10 10:00:00', '678 Revolution Ave, Downtown', 'Phoenix', 'USA'),
-(7, 7, 8, 130.00, '2024-08-09 16:30:00', '2024-08-11 13:00:00', '111 Main Street, Office 203', 'San Antonio', 'USA'),
+(5, 3, 1, 1200.00, '2024-08-07 08:00:00', '2024-08-09 09:00:00', '234 9th of July Street, Floor 7', 'Philadelphia', 'USA'),
+(6, 4, 6, 750.00, '2024-08-08 14:00:00', '2024-08-10 10:00:00', '678 Revolution Ave, Downtown', 'Phoenix', 'USA'),
+(7, 3, 8, 130.00, '2024-08-09 16:30:00', '2024-08-11 13:00:00', '111 Main Street, Office 203', 'San Antonio', 'USA'),
 (8, 8, 4, 600.00, '2024-08-10 10:45:00', '2024-08-12 15:00:00', '456 Constitution Ave, Modern Building', 'San Diego', 'USA'),
 (9, 9, 9, 250.00, '2024-08-11 11:00:00', '2024-08-13 17:00:00', '789 Reform Walk, Executive Tower', 'Dallas', 'USA'),
 (10, 10, 10, 500.00, '2024-08-12 13:00:00', '2024-08-14 19:00:00', '345 Alameda Street, Floor 2', 'San Jose', 'USA');

@@ -110,4 +110,22 @@ where hire_date is null and birth_date is null;
 /**
  * Exercise #14
  */
- 
+ SELECT 
+    c.customer_id,
+    p.purchase_id,
+    p.total_price,
+    ROUND((p.total_price / total_gasto.total_cliente_gasto) * 100, 2) AS porcentaje_gastado
+FROM 
+    purchase p
+INNER JOIN 
+    (SELECT 
+         customer_id,
+         SUM(total_price) AS total_cliente_gasto
+     FROM 
+         purchase
+     GROUP BY 
+         customer_id) AS total_gasto
+    ON p.customer_id = total_gasto.customer_id
+INNER JOIN 
+    customer c
+    ON c.customer_id = p.customer_id;

@@ -111,21 +111,20 @@ where hire_date is null and birth_date is null;
  * Exercise #14
  */
  SELECT 
-    c.customer_id,
-    p.purchase_id,
-    p.total_price,
-    ROUND((p.total_price / total_gasto.total_cliente_gasto) * 100, 2) AS porcentaje_gastado
-FROM 
-    purchase p
-INNER JOIN 
-    (SELECT 
-         customer_id,
-         SUM(total_price) AS total_cliente_gasto
-     FROM 
-         purchase
-     GROUP BY 
-         customer_id) AS total_gasto
-    ON p.customer_id = total_gasto.customer_id
-INNER JOIN 
-    customer c
-    ON c.customer_id = p.customer_id;
+	p1.customer_id, 
+    p1.purchase_id, 
+    p1.total_price AS price,
+    p2.total,
+    ROUND(p1.total_price * 100 / p2.total, 2) as percent 
+FROM store.purchase AS p1
+INNER JOIN (
+	SELECT customer_id, SUM(p.total_price) as total
+	FROM store.purchase AS p
+	GROUP BY p.customer_id
+) AS p2 ON p2.customer_id = p1.customer_id
+ORDER BY p1.customer_id;
+
+/**
+ * Se crea una tabla imaginaria a partir de valores de unas tablas y  existententes y luego se hace un join 
+ con la tabla real para unir los datos
+ */

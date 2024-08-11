@@ -4,8 +4,7 @@ A store has a lot of information. For example, a product has a brand, a category
 and since there is so much information in a store, I tried to represent the data of a store in a SQL database.
 
 This image is a graphical representation of what I want to achieve with this database:
-## Entity-Relationship (ER) model 
-![model.er](./rsc/model.er.drawio.svg)
+![model.er](./rsc/Diagrama2.drawio.png)
 
 ### Install
 

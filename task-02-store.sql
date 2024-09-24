@@ -125,6 +125,6 @@ INNER JOIN (
 ORDER BY p1.customer_id;
 
 /**
- * Se crea una tabla imaginaria a partir de valores de unas tablas y  existententes y luego se hace un join 
+ * Se crea una tabla imaginaria a partir de valores de unas tablas y existententes y luego se hace un join 
  con la tabla real para unir los datos
  */
